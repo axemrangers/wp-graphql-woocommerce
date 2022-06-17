@@ -60,7 +60,7 @@ class Product_Types {
 		return array_merge(
 			array(
 				'manageStock'       => array(
-					'type'        => 'Boolean',
+					'type'        => 'ManageStockEnum',
 					'description' => __( 'If product manage stock', 'wp-graphql-woocommerce' ),
 				),
 				'stockQuantity'     => array(
